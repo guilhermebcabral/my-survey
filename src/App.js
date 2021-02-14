@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom'
 import GlobalStyle from './styles/global'
 import Routes from './routes'
 
-export default function App() {
+const App = () => {
   return (
     <>
       <BrowserRouter>
@@ -15,3 +15,4 @@ export default function App() {
   );
 }
 
+export default App
